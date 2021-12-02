@@ -21,6 +21,19 @@ const setupInput = (conn) => {
     if (key==="d"){
         conn.write("Move: right");
     }
+    // if (key==="h"){
+    //     conn.write("h");
+    // }
+    // if (key==="e"){
+    //     conn.write("e");
+    // }
+    // if (key==="l"){
+    //     conn.write("ll");
+    // }
+    // if (key==="o"){
+    //     conn.write("o");
+    // }
+    
     
     if (key === '\u0003') {
         process.exit();

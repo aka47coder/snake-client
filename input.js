@@ -21,9 +21,9 @@ const setupInput = (conn) => {
     if (key==="d"){
         conn.write("Move: right");
     }
-    // if (key==="h"){
-    //     conn.write("h");
-    // }
+    if (key==="h"){
+        conn.write("Say: My name is hamza");
+    }
     // if (key==="e"){
     //     conn.write("e");
     // }
